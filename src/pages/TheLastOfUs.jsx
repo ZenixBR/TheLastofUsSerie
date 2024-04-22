@@ -9,10 +9,12 @@ import craig from "/Craig.jpg";
 import neil from "/Neil.jfif";
 import hospital from "/hospital.webp";
 import game from "/last-of-us-como-assistir.webp";
+import Header from "../components/Header"
 
 export default function TheLastofUs() {
   return (
     <main className="flex">
+      <Header />
       <section className="flex justify-center">
         <div id="pginicial" className=" flex flex-col justify-center items-center bg-white w-8/12">
           <h1 className="text-5xl font-bold mt-20 mb-8">The Last of Us A Série</h1>
